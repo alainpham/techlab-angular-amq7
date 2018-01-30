@@ -1,0 +1,6 @@
+<h2>Sending message</h2>
+<input [(ngModel)]="tobeSentMsg">
+<button (click)="sendMsg()">Send Message</button>
+
+<h2>Received message</h2>
+<pre>{{receivedMsg | json}}</pre>
