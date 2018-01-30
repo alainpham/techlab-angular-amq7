@@ -22,8 +22,6 @@ This project shows how you can use the AMQP javascript client [rhea](https://git
 * Create a new angular project : `ng new techlab-angular-amq7`
 * Go to project root : `cd techlab-angular-amq7`
 * Install rhea node module : `npm install rhea --save`
-* Edit src/tsconfig.app.json
-
 * Create a dummy component : `ng generate component dummy`
 * Edit the file src/app/dummy/dummy.component.ts as follows:
 	```
